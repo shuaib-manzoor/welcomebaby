@@ -12967,6 +12967,7 @@ footer.footer .social-link:hover {
   max-height: 350px;
   box-shadow: 3px 3px 23px -7px black;
   height: 320px;
+  overflow: hidden;
 }
 
 .card-title {
@@ -12978,6 +12979,9 @@ footer.footer .social-link:hover {
   padding: 2%;
   border-top-right-radius: 4px;
   border-top-left-radius: 4px;
+  position: absolute;
+    top: 0px;
+    width: 100%;
 }
 
 .card-custom img {
@@ -13019,4 +13023,10 @@ h1 {
     overflow: hidden;
     max-width: 310px;
     position: relative;
+}
+
+.f-img-wrapper{
+  height: 289px;
+  top: 36px;
+  position: absolute;
 }
